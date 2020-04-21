@@ -42,7 +42,7 @@ Lenguajes: Se tienen dos opciones, NGINX y Python
 Luego de configurar el servidor rtmp se continúa con la configuración del cliente de streaming, en el cual irá toda la información de la dirección de publicación con la cual los usuarios podrán acceder al servicio.
 Y finalmente se deberá embeber en una página WEB el video en html para que el usuario pueda ingresar sin ningún inconveniente al servicio.  
 
-El servidor rtmp se pondrá en un contenedor (Docker), ya que esto hará más rápido el proceso y habrá escalabilidad. 
+El servidor rtmp se pondrá en un contenedor (Docker), ya que esto hará más rápido el proceso y permitirá escalabilidad. 
 
 
 
@@ -52,3 +52,5 @@ Bibliografía:
 https://gospelidea.com/blog/como-funciona-el-streaming
 
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=33&ved=2ahUKEwiO6c3l7vfoAhUKVd8KHXQkC2YQFjAgegQIBBAB&url=http%3A%2F%2Fprofesores.elo.utfsm.cl%2F~agv%2Felo322%2F1s19%2Fprojects%2Freports%2FProtocolo_RTMP.pdf&usg=AOvVaw3i-ZwWEZVJtI-bY2tmFYyb
+
+https://www.dacast.com/blog/video-streaming-protocol/
